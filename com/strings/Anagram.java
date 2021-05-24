@@ -3,7 +3,6 @@ package com.strings;
 public class Anagram {
     public static boolean Anagram(String a,String b)
     {
-
         // Your code here
         int c = 0;
         int d = 0;
@@ -25,5 +24,6 @@ public class Anagram {
     }
     public static void main(String[] args) {
         System.out.println(Anagram("abc","cba"));
+        System.out.println("Done!");
     }
 }
